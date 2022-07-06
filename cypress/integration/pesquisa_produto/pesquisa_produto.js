@@ -3,6 +3,7 @@
 
 
 
+
 Given(/^que eu entro no site$/, () => {
 	cy.request('https://www.gsuplementos.com.br/').its('status').should('eq', 200)
 	cy.visit('https://www.gsuplementos.com.br/')
