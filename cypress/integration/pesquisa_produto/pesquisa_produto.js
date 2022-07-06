@@ -24,6 +24,7 @@ When(/^faço a buscar por "([^"]*)"$/, (produto) => {
 
 When(/^clico em pesquisar$/, () => {
 	cy.get('.flex-child-shrink > div.topo-busca > #busca > button').click()
+	
 });
 
 
