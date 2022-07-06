@@ -9,6 +9,7 @@ Given(/^que eu entro no site$/, () => {
 	cy.visit('https://www.gsuplementos.com.br/')
 	
 	
+
 });
 
 
@@ -16,6 +17,7 @@ Given(/^que eu entro no site$/, () => {
 When(/^faço a buscar por "([^"]*)"$/, (produto) => {
 	cy.get('.flex-child-shrink > div.topo-busca > #busca > input').type(produto)
 });
+
 
 
 
